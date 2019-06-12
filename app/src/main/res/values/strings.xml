@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">TecLaborApp</string>
+    <string name="log_in">Iniciar Sesión</string>
+    <string name="invalid_credentials">Credenciales inválidas</string>
+
+
+    <!-- Questions -->
+    <string name="creativity_question_4">Presenta soluciones, productos, ideas novedosas y originales, nuevas combinaciones del conocimiento existente y/o creación de conocimiento nuevo</string>
+    <string name="creativity_question_3">Presenta soluciones, productos e ideas que resuelven problemas o situaciones aplicando conocimientos nuevos o diferente</string>
+    <string name="creativity_question_2">Aplica/recomienda soluciones, productos e ideas que resuelven problemas o situaciones utilizando su experiencia en otra similares. Soluciona u ofrece soluciones basándose en el conocimiento de otros</string>
+    <string name="creativity_question_1">Ante distintas situaciones, aplica/recomienda respuestas estándar, las mismas que el mercado o cualquier otro darían a ese problema o situación</string>
+
+    <string name="persuasion_question_4">Utiliza influencias y cadenas de influencia indirectas. Utiliza una estrategia formada por diferentes y sucesivas acciones para influir en los demás, adaptando cada acción a los diferentes interlocutores. Se anticipa y se prepara para las reacciones de los demás</string>
+    <string name="persuasion_question_3">Calcula el impacto de las palabras o acciones. Adapta los argumentos para atraer la atención de los demás. Piensa de antemano en el efecto que una acción o cualquier otro detalle producirá en la imagen que los demás tienen de él. Lleva a cabo acciones inusuales o singulares especialmente pensadas para producir un impacto determinado.</string>
+    <string name="persuasion_question_2">Utiliza una única acción para persuadir. Aplica la persuasión para convencer a otros. Elabora anticipadamente varios argumentos o puntos de vista para lograr su objetivo.</string>
+    <string name="persuasion_question_1">Demuestra intención aunque no actúe. Intenta producir un impacto determinado sobre los demás. Muestra preocupación por la reputación, el estatus, la apariencia, etc.</string>
+
+    <string name="collaboration_question_4">Cumple con sus obligaciones sin desatender por ello los intereses de otras áreas y es un referente confiable de todos los que deben relacionarse con su sector o departamento. Tiene sólida reputación personal en la comunidad a la que pertenece, esto realza su permanente colaboración.</string>
+    <string name="collaboration_question_3">Por medio de sus actitudes, alienta al buen desarrollo de las tareas de todos. Tiene sólida reputación profesional y genera confianza de los demás sin descuidar sus obligaciones específicas</string>
+    <string name="collaboration_question_2">Comprende la necesidad de que todos colaboren unos con otros para la mejor consecución de los objetivos generales.</string>
+    <string name="collaboration_question_1">Escasa predisposición para realizar todo aquello que no esté dentro de sus obligaciones específicas</string>
+
+    <string name="adaptability_question_4">Realiza adaptaciones organizacionales y estratégicas a corto, mediano y largo plazo en respuesta a los cambios del entorno o las necesidades de la situación. Evalúa sistemáticamente su entorno atento a cambios que pudieran producirse.</string>
+    <string name="adaptability_question_3">Adapta tácticas y objetivos para afrontar una situación o solucionar problemas. Sistemáticamente revisa y evalúa las consecuencias positivas y/o negativas de las acciones pasadas para agregar valor.</string>
+    <string name="adaptability_question_2">Evalúa y observa la situación objetivamente y puede reconocer la validez del punto de vista de otros, utilizando dicha información de manera selectiva para modificar su accionar. Revisa situaciones pasadas para modificar su accionar ante situaciones nuevas.</string>
+    <string name="adaptability_question_1">Sigue siempre los procedimientos. En ocasiones puede reconocer la validez de otros puntos de vista y modificar su accionar</string>
+
+    <string name="productivity_question_4">Se desafía a sí mismo estableciéndose objetivos cada vez más altos, y los alcanza. Se transforma en un referente a imitar por sus pares o por las generaciones venideras.</string>
+    <string name="productivity_question_3">Establece objetivos que superan al promedio y los cumple casi siempre. Supera a lo que se espera para su nivel.</string>
+    <string name="productivity_question_2">Cumple con los objetivos de productividad establecidos de acuerdo con lo esperado.</string>
+    <string name="productivity_question_1">No siempre cumple con los objetivos establecidos por sus superiores.</string>
+
+    <string name="creativity">Creatividad</string>
+    <string name="persuasion">Persuasión</string>
+    <string name="collaboration">Colaboración</string>
+    <string name="adaptability">Adaptabilidad</string>
+    <string name="productivity">Productividad</string>
+    <string name="log_out">Cerrar Sesión</string>
+    <string name="new_test">Nuevo Test</string>
+    <string name="enough_test">No tienes Tests realizados</string>
+    <string name="tests">Tests</string>
+
+
+</resources>
