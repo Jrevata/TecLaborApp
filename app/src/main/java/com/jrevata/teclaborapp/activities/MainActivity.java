@@ -12,17 +12,25 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.GridView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 
 import com.jrevata.teclaborapp.R;
+import com.jrevata.teclaborapp.adapters.TestAdapter;
 import com.jrevata.teclaborapp.models.ResponseMessage;
+import com.jrevata.teclaborapp.models.Test;
 import com.jrevata.teclaborapp.models.Usuario;
+import com.jrevata.teclaborapp.repositories.TestRepository;
 import com.jrevata.teclaborapp.repositories.UsuarioRepository;
 import com.jrevata.teclaborapp.services.ApiService;
 import com.jrevata.teclaborapp.services.ApiServiceGenerator;
 import com.squareup.picasso.Picasso;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 import retrofit2.Call;
@@ -34,7 +42,9 @@ public class MainActivity extends AppCompatActivity {
 
     private DrawerLayout drawerLayout;
     private CircleImageView photoImage;
-    private TextView fullnameText, emailText;
+    private GridView gridView;
+    private TextView fullnameText, emailText, listTestText;
+    private List<Test> testList;
     private static final String TAG = MainActivity.class.getSimpleName();
 
     @Override
@@ -49,8 +59,32 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
+        initializeNavigatorMenu();
+
+        listTestText = findViewById(R.id.textview_verify_list_test);
 
 
+        gridView = findViewById(R.id.gridView_tests);
+        gridView.setAdapter(new TestAdapter(this));
+
+        testList = TestRepository.listTests();
+
+        if(!testList.isEmpty())
+            listTestText.setVisibility(View.INVISIBLE);
+
+        TestAdapter adapter = (TestAdapter) gridView.getAdapter();
+        adapter.setTestAdapter(testList);
+        adapter.notifyDataSetChanged();
+
+
+
+
+
+
+
+    }
+
+    private void initializeNavigatorMenu(){
         Toolbar toolbar = findViewById(R.id.toolbar_menu);
         setSupportActionBar(toolbar);
 
@@ -78,6 +112,8 @@ public class MainActivity extends AppCompatActivity {
         emailText.setText(user.getCorreo());
 
 
+
+
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
@@ -85,7 +121,8 @@ public class MainActivity extends AppCompatActivity {
                 switch (menuItem.getItemId()) {
                     case R.id.nav_new_test:
 
-
+                        Intent intent = new Intent(MainActivity.this, TestActivity.class);
+                        startActivity(intent);
 
                         break;
 
@@ -102,8 +139,6 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
-
-
     }
 
     @Override

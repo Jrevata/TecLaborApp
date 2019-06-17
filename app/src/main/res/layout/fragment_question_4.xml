@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    tools:context=".activities.TestActivity">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="10dp">
+
+            <TableRow
+                android:background="@color/Blue_Dress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Competencia 4 (4/5)"
+                    android:fontFamily="@font/lato"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:layout_weight="10"
+                    android:textColor="@color/White"
+
+                    />
+            </TableRow>
+
+            <TableRow
+
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Black_Cat"
+                    android:layout_weight="8"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:fontFamily="@font/lato"
+                    android:text="Descripción" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Black_Cat"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/lato"
+                    android:text="Selección" />
+
+
+
+            </TableRow>
+
+            <TableRow
+
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Black_Cat"
+                    android:layout_weight="8"
+
+                    android:fontFamily="@font/lato"
+                    android:text="@string/adaptability_question_4"/>
+
+                <RadioButton
+                    android:id="@+id/radio_question_4_4"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+
+                    android:theme="@style/MyRadioButton"
+                    />
+
+            </TableRow>
+
+            <TableRow
+
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Black_Cat"
+                    android:layout_weight="8"
+                    android:fontFamily="@font/lato"
+                    android:text="@string/adaptability_question_3" />
+
+                <RadioButton
+                    android:id="@+id/radio_question_4_3"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+
+                    android:theme="@style/MyRadioButton"
+                    />
+
+            </TableRow>
+
+            <TableRow
+
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Black_Cat"
+                    android:layout_weight="8"
+                    android:fontFamily="@font/lato"
+                    android:text="@string/adaptability_question_2" />
+
+                <RadioButton
+                    android:id="@+id/radio_question_4_2"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+
+                    android:theme="@style/MyRadioButton"
+                    />
+
+            </TableRow>
+
+            <TableRow
+
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Black_Cat"
+                    android:layout_weight="8"
+
+                    android:fontFamily="@font/lato"
+                    android:text="@string/adaptability_question_1" />
+
+                <RadioButton
+                    android:id="@+id/radio_question_4_1"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+
+                    android:theme="@style/MyRadioButton"
+                    />
+
+            </TableRow>
+
+            <TableRow
+
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                >
+
+                <Button
+                    android:id="@+id/button_adaptabilidad_next"
+                    android:layout_weight="10"
+                    android:text="@string/next"
+                    android:fontFamily="@font/lato"
+                    android:textColor="@color/White"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:background="@color/Blue_Dress"/>
+
+            </TableRow>
+
+
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

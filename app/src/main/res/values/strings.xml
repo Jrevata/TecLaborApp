@@ -8,7 +8,7 @@
     <string name="creativity_question_4">Presenta soluciones, productos, ideas novedosas y originales, nuevas combinaciones del conocimiento existente y/o creación de conocimiento nuevo</string>
     <string name="creativity_question_3">Presenta soluciones, productos e ideas que resuelven problemas o situaciones aplicando conocimientos nuevos o diferente</string>
     <string name="creativity_question_2">Aplica/recomienda soluciones, productos e ideas que resuelven problemas o situaciones utilizando su experiencia en otra similares. Soluciona u ofrece soluciones basándose en el conocimiento de otros</string>
-    <string name="creativity_question_1">Ante distintas situaciones, aplica/recomienda respuestas estándar, las mismas que el mercado o cualquier otro darían a ese problema o situación</string>
+    <string name="creativity_question_1">Ante distintas situaciones, aplica / recomienda respuestas estándar, las mismas que el mercado o cualquier otro darían a ese problema o situación</string>
 
     <string name="persuasion_question_4">Utiliza influencias y cadenas de influencia indirectas. Utiliza una estrategia formada por diferentes y sucesivas acciones para influir en los demás, adaptando cada acción a los diferentes interlocutores. Se anticipa y se prepara para las reacciones de los demás</string>
     <string name="persuasion_question_3">Calcula el impacto de las palabras o acciones. Adapta los argumentos para atraer la atención de los demás. Piensa de antemano en el efecto que una acción o cualquier otro detalle producirá en la imagen que los demás tienen de él. Lleva a cabo acciones inusuales o singulares especialmente pensadas para producir un impacto determinado.</string>
@@ -40,5 +40,7 @@
     <string name="enough_test">No tienes Tests realizados</string>
     <string name="tests">Tests</string>
 
+    <string name="radar_title">Radar del resultado de empleabilidad del alumno</string>
+    <string name="next">Siguiente</string>
 
 </resources>

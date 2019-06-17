@@ -46,5 +46,9 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="MyRadioButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/appreparto4</item>
+        <item name="colorControlActivated">@color/Blue_Dress</item>
+    </style>
 
 </resources>
